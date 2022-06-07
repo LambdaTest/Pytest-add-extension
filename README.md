@@ -27,7 +27,7 @@ For OSX, ~/Library/Application Support/Google/Chrome/Default/Extensions/$ID$
 
 In the conftest.py file, you need to update the test capabilities and add the extension capability. For example:
 
-```
+```python
 capabilities = {
         "build": "Sample PY Build",
         "platformName": "Windows 11",
